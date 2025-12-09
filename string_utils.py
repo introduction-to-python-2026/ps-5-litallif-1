@@ -20,9 +20,7 @@ def split_at_digit(formula):
     if digit_location == -1:
         return formula, 1
     else:
-        a1= formula[:digit_location]
-        a2 = formula[digit_location:]
-        return a1, int(a2)
+      return formula[:digit_location], int(formula[digit_location:])
 def count_atoms_in_molecule(molecular_formula):
     at = {}
     part = split_before_uppercases(molecular_formula)

@@ -35,19 +35,19 @@ def split_at_digit(formula):
         return a1, int(a2)
 
 def count_atoms_in_molecule(molecular_formula):
-    list = {}
+    at = {}
 
     part = split_before_uppercases(molecular_formula)
 
     for p in part:
         atom,num = split_at_digit(p)
         
-        if atom in list:
-            list[atom] += num
+        if atom in at:
+            at[atom] += num
         else:
-            list[atom] = num
+            at[atom] = num
 
-    return list
+    return at
 
 
 

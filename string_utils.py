@@ -1,6 +1,3 @@
-
-
-
 def split_before_uppercases(formula):
     split_formula = []
     start = 0

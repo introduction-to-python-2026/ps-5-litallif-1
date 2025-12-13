@@ -1,5 +1,4 @@
-from sympy import solve as sympy_solve
-from sympy import Eq, enumerate,symbols,generate_equation_for_element
+from sympy import Eq, symbols, solve as sympy_solve
 
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',

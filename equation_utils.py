@@ -1,4 +1,5 @@
-from sympy_solve import my_solve as sympy_solve
+from sympy import solve as sympy_solve
+
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
     'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar', 'K', 'Ca',
